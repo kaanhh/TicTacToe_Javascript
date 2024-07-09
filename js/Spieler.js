@@ -1,3 +1,5 @@
-export class Spieler{
-    
+export class Spieler {
+    constructor(symbol) {
+        this.symbol = symbol;
+    }
 }
